@@ -1,9 +1,4 @@
 
-.secao {
-    float:left;
-    width:33%;
-}
-
 .mini {
     float:left;
     width:50%;
@@ -43,3 +38,29 @@ header {
 .barra-nav{
         margin: 0.4em 0;
 }
+
+
+.secao {
+    float:left;
+}
+
+@media (min-width:600px){
+    html{
+        font-size:1.10em;
+    }
+
+    .secao{
+        width:50%;
+    }
+}
+
+@media (min-width:1000px){
+    html{
+        font-size:1.25em;
+    }
+
+    .secao{
+        width:33.33%;
+    }
+}
+
